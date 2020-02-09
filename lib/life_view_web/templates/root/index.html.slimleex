@@ -1,0 +1,5 @@
+table
+  = Enum.map @world, fn row ->
+    tr
+      = Enum.map row, fn cell ->
+        td.cell class=class_for(cell)

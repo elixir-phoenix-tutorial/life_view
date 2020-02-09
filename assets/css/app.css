@@ -1,0 +1,14 @@
+/* This file is for your main application css. */
+
+.cell {
+  width: 10px;
+  height: 10px
+}
+
+.alive {
+  background-color: green
+}
+
+.dead {
+  background-color: grey
+}
